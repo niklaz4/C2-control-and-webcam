@@ -11,7 +11,7 @@
 <p><strong>O que acontece:</strong></p>
 
 <ol>
-    <li>O script do cliente acessa a webcam da vítima, captura frames periodicamente e os codifica em base64.</li>
+    <li>O script acessa a webcam da vítima, captura frames periodicamente e os codifica em base64.</li>
     <li>Esses frames são enviados ao servidor C2.</li>
     <li>O servidor C2 armazena os frames recebidos e os exibe em tempo real através de uma interface web, permitindo que um invasor visualize a transmissão da webcam da vítima.</li>
 </ol>
@@ -34,8 +34,8 @@
 
 <h3>Passo 1: Clonar o repositório</h3>
 
-<pre><code>git clone https://github.com/seu-usuario/c2-webcam-stream.git
-cd c2-webcam-stream
+<pre><code>git clone https://github.com/niklaz4/C2-control-and-webcam.git
+cd C2-control-and-webcam
 </code></pre>
 
 <h3>Passo 2: Criar e ativar o ambiente virtual (venv)</h3>
@@ -72,7 +72,7 @@ cd c2-webcam-stream
 
 <p>O servidor será iniciado e escutará na porta <strong>5000</strong>. Acesse o endereço no navegador: <code>http://localhost:5000</code></p>
 
-<h3>2. Configurar o cliente malicioso:</h3>
+<h3>2. Configurar o codigo malicioso:</h3>
 
 <p>No script <code>client.py</code>, defina o endereço IP do servidor C2 na variável <code>c2_server</code>. Por exemplo:</p>
 
@@ -80,13 +80,14 @@ cd c2-webcam-stream
 
 <h3>3. Iniciar o script malicioso do cliente:</h3>
 
-<p>Execute o cliente que enviará os frames da webcam para o servidor C2:</p>
+<p>Execute o codigo que enviará os frames da webcam para o servidor C2:</p>
 
-<pre><code>python client.py</code></pre>
+<pre><code>python webcam.py</code></pre>
 
 <hr>
 
 <h2>⚠️ Aviso Legal</h2>
 
 <p><strong>Aviso Legal:</strong> Este código é fornecido para fins de aprendizado e conscientização sobre vulnerabilidades de segurança e ataques de spyware. O uso inadequado para atividades maliciosas é ilegal e punível por lei. Use com responsabilidade e ética.</p>
+
 

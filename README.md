@@ -86,8 +86,5 @@ cd C2-control-and-webcam
 
 <hr>
 
-<h2>⚠️ Aviso Legal</h2>
-
-<p><strong>Aviso Legal:</strong> Este código é fornecido para fins de aprendizado e conscientização sobre vulnerabilidades de segurança e ataques de spyware. O uso inadequado para atividades maliciosas é ilegal e punível por lei. Use com responsabilidade e ética.</p>
 
 
